@@ -51,10 +51,10 @@ export default class App extends React.Component {
 
         return (
             <Container fluid>
-                {/* {tocktock == "NNN" ? (
+                {tocktock == "NNN" ? (
                     // Render login form if not logged in
                     <LoginForm onLoginSuccess={this.handleLoginSuccess} />
-                ) : ( */}
+                ) : (
                     // Render components after successful login
                     <div>
                         <WebSocketProvider tockid={tocktock} >
@@ -94,7 +94,7 @@ export default class App extends React.Component {
                             </EcoMap>
                         </WebSocketProvider>
                     </div>
-                {/* )} */}
+                )}
             </Container>
         );
     }
