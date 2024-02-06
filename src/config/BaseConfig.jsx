@@ -1,5 +1,5 @@
 export const BaseConfig = {
-    wsUrl: 'wss://testingvideo.duckdns.org:5097/ws',
+    wsUrl: 'wss://176.245.61.161:5097/ws',
     webSocketState: {
         MESSAGING: 0,
         OPEN: 1,
