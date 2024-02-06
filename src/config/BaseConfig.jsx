@@ -1,5 +1,5 @@
 export const BaseConfig = {
-    wsUrl: 'ws://2.43.168.129:5097/ws',
+    wsUrl: 'wss://2.43.168.129:5097/ws',
     webSocketState: {
         MESSAGING: 0,
         OPEN: 1,
