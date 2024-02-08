@@ -1,5 +1,5 @@
 export const BaseConfig = {
-    wsUrl: 'wss://fasito.net/ws',//'wss://fasito.net/ws',
+    wsUrl: 'wss://fasito.net/ws',
     webSocketState: {
         MESSAGING: 0,
         OPEN: 1,
