@@ -19,7 +19,7 @@ export const LoginForm = (props) => {
                 body: JSON.stringify(USE),
             };
 
-            var response = await fetch('service/Auth/login', requestBuilder);
+            var response = await fetch('/service/Auth/login', requestBuilder);
             
             if (!response.ok) {
                 console.log(response.statusText);
