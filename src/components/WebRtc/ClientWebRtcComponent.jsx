@@ -257,7 +257,7 @@ export const ClientWebRtcComponent = () => {
 
     const connectVideoWs = () => {
 
-        wsReff.current = new WebSocket("ws://testingvideo.duckdns.org:5055");
+        wsReff.current = new WebSocket("ws://fasito.net:5055");
 
         wsReff.current.onopen = (e) => {
 
