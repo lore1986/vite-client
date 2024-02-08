@@ -12,6 +12,11 @@ export default defineConfig({
           secure: false,
           changeOrigin: true
       },
+      //   '^/websocket': {
+      //     target: 'wss://localhost:5055',
+      //     ws: true,
+      //     changeOrigin: true
+      // }
     }
   }
 })
