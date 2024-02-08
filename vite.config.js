@@ -8,7 +8,7 @@ export default defineConfig({
   server: {
     proxy: {
       '^/service': {
-          target: 'https://fasito.net/',
+          target: 'https://fasito.net/', //'https://localhost:5001',//,
           secure: false,
           changeOrigin: true
       },
